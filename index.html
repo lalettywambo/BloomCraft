@@ -7,9 +7,7 @@
 
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+    
     <style>
         body{
             font-family:'Poppins', sans-serif;
@@ -21,12 +19,12 @@
     </style>
 </head>
 
-<body class="bg-pink-50">
+<body class="bg-white-100">
 
 <!-- NAVBAR -->
 
-<nav class="bg-white shadow-sm">
-    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+<nav class="bg-pink-200 shadow-sm">
+    <div class="max-w-7xl  px-6 py-4 flex justify-between items-center">
 
         <h1 class="text-3xl heading text-pink-600">
             BloomCraft
@@ -67,11 +65,11 @@
 
             <div class="flex gap-4">
 
-                <button class="bg-pink-500 text-white px-8 py-3 rounded-full hover:bg-pink-600">
+                <button class="bg-pink-600 text-white px-8 py-3  hover:bg-pink-500">
                     Shop Flowers
                 </button>
 
-                <button class="border-2 border-pink-500 text-pink-500 px-8 py-3 rounded-full hover:bg-pink-500 hover:text-white">
+                <button class="border-2 border-pink-500 text-pink-500 px-8 py-3  hover:bg-pink-500 hover:text-white">
                     Build A Bouquet
                 </button>
 
@@ -82,16 +80,49 @@
         <div>
 
             <img
-                src="images/hero/hero1.jpg"
+                src="ASSETS/imagess/homepageflower.jpg"
                 alt="Flower Bouquet"
-                class="rounded-3xl shadow-xl w-full"
+                class="rounded-3xl shadow-xl w-full object-cover max-h-[520px]"
             >
 
         </div>
 
-    </div>
+        <div class="flex items-center bg-gray-50 py-4 px-2">
 
-</section>
+            <div class="flex items-center">
+                <svg>...</svg>
+                <div>
+                    <h3 class="font-bold uppercase text-xs">Free Delivery</h3>
+                    <p class="text-xs text-gray-500">On Orders Above Ksh5000.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <svg>...</svg>
+                <div>
+                    <h3 class="font-bold uppercase text-xs">Fresh and Quality</h3>
+                    <p class="text-xs text-gray-500">Handpicked with Care.</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <svg>...</svg>
+                <div>
+                    <h3 class="font-bold uppercase text-xs">Custom Bouquets</h3>
+                    <p class="text-xs text-gray-500">Made just for you</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <svg>...</svg>
+                <div>
+                    <h3 class="font-bold uppercase text-xs">Safe payement</h3>
+                    <p class="text-xs text-gray-500">100% secure checkout</p>
+                </div>
+            </div>
+
+        </div>
+
 
 </body>
 </html>
