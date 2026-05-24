@@ -21,16 +21,14 @@
 
     <!-- NAVBAR -->
 
-<nav class="bg-pink-200 shadow-sm">
-    <div class="max-w-7xl  px-6 py-4 flex justify-between items-center">
+<nav class="bg-pink-200 shadow-sm relative">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 
-        <h1 class="text-3xl heading text-pink-600">
-            BloomCraft
-        </h1>
+        <h1 class="text-3xl heading text-pink-600">BloomCraft</h1>
 
-        <button onclick=""></button>
+        <input type="checkbox" id="menu-toggle" class="hidden peer">
 
-       <ul class="hidden md:flex gap-8 font-medium">
+        <ul class="hidden peer-checked:flex peer-checked:flex-col peer-checked:absolute peer-checked:top-16 peer-checked:left-0 peer-checked:w-full peer-checked:bg-pink-200 peer-checked:px-6 peer-checked:py-4 peer-checked:shadow-md md:flex gap-8 font-medium">
             <li><a href="index.html" class="hover:text-pink-600">Home</a></li>
             <li><a href="shop.html" class="hover:text-pink-600">Shop Flowers</a></li>
             <li><a href="bouquet.html" class="hover:text-pink-600">Build a Bouquet</a></li>
@@ -38,6 +36,14 @@
             <li><a href="about.html" class="hover:text-pink-600">About Us</a></li>
             <li><a href="contact.html" class="hover:text-pink-600">Contact</a></li>
         </ul>
+
+        <div class="flex gap-4 items-center">
+            <a href="login.html"><i class="fa-regular fa-user text-gray-700 hover:text-pink-600 text-xl"></i></a>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping text-gray-700 hover:text-pink-600 text-xl"></i></a>
+            <label for="menu-toggle" class="md:hidden text-gray-700 text-2xl cursor-pointer">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
 
     </div>
 </nav>
