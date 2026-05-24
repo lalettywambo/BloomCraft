@@ -1,11 +1,13 @@
 # BloomCraft Website
 
 ## Project Overview
+
 BloomCraft is a simple e-commerce flower website created using HTML and Tailwind CSS.
 
 The website is designed to make flower shopping more convenient by allowing customers to browse flowers online and personalize bouquet selections without visiting a physical flower shop.
 
 The project contains:
+
 - A homepage with featured bouquets and flower collections
 - A shop page displaying available flowers
 - A bouquet customization page
@@ -33,7 +35,7 @@ The project contains:
 
 - HTML5
 - Tailwind CSS
-- Figma
+
 
 ---
 
@@ -46,6 +48,7 @@ The styling for this project is implemented using Tailwind CSS utility classes t
 Global styling is achieved through Tailwind utility classes applied directly to HTML elements.
 
 Examples include:
+
 - Background colors
 - Typography
 - Spacing
@@ -64,6 +67,7 @@ Example:
 The navigation bar uses Flexbox utilities for layout and alignment.
 
 Features include:
+
 - Logo positioning
 - Navigation links
 - Responsive spacing
@@ -82,6 +86,7 @@ Example:
 Flower and bouquet products are displayed using reusable card layouts.
 
 The product card styling includes:
+
 - Rounded corners
 - Shadow effects
 - Hover transitions
@@ -113,6 +118,7 @@ Example:
 The bouquet customization and contact forms use styled input fields and spacing for better usability.
 
 Features include:
+
 - Rounded input fields
 - Consistent padding
 - Responsive layouts
@@ -123,18 +129,6 @@ Example:
 ```html
 <input class="border rounded-lg p-3 w-full">
 ```
-
----
-
-## 6. Footer Styling
-
-The footer maintains a consistent appearance across all pages.
-
-Features:
-- Multiple information sections
-- Contact details
-- Quick navigation links
-- Centered copyright information
 
 ---
 
@@ -160,6 +154,60 @@ BloomCraft/
 │
 └── README.md
 ```
+
+---
+
+# Installation
+
+To run this project locally:
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/lalettywambo/BloomCraft.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd BloomCraft
+```
+
+3. Open the project in Visual Studio Code.
+
+4. Open the `index.html` file in your browser or use the Live Server extension.
+
+No additional dependencies or installations are required.
+
+---
+
+# Contribution
+
+Contributions are welcome.
+
+To contribute:
+
+1. Fork the repository.
+
+2. Create a new branch:
+
+```bash
+git checkout -b feature-name
+```
+
+3. Make your changes and commit them:
+
+```bash
+git commit -m "Add new feature"
+```
+
+4. Push your changes:
+
+```bash
+git push origin feature-name
+```
+
+5. Submit a Pull Request.
 
 ---
 
@@ -207,6 +255,25 @@ Possible future improvements include:
 
 ---
 
+# License
+
+This project is licensed under the MIT License.
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software.
+
+---
+
+# Author
+
+**Murathe Laletty **
+
+Front-End Developer
+
+BloomCraft was developed as an educational project to demonstrate the application of HTML5, Tailwind CSS, responsive web design principles, and user-centered interface design in the creation of a modern flower e-commerce platform.
+
+---
+
 # Conclusion
 
 This project demonstrates the use of HTML and Tailwind CSS to create a clean, modern, and visually appealing flower e-commerce website.
@@ -219,4 +286,6 @@ It also shows understanding of:
 - Navigation design
 - Form creation
 - Basic UI/UX principles
-- E-commerce website design
+- E-commerce website development
+
+---
