@@ -131,6 +131,18 @@ Example:
 ```
 
 ---
+## 6. Footer Styling
+
+The footer maintains a consistent appearance across all pages.
+
+Features include:
+
+- Multiple information sections
+- Contact Details
+- Quick Navigation links
+- Central copyright information
+
+---
 
 # File Structure
 
